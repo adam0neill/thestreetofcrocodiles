@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #bfd9e2;
+    background: #eafaff;
     color: #333333;
     font-family:livory, serif;
     font-weight: 400;
@@ -23,7 +23,7 @@ section, header, footer {
 }
 
 section, header {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 p, blockquote {
@@ -32,12 +32,12 @@ p, blockquote {
 }
 
 h1, h2 {
-    color: #488396;
+    color: #3b6e7e;
 
 }
 
 h1 {
-    font-size: 5.653rem;
+    font-size: 4rem;
     margin-top: 5rem;
     padding-bottom: 0;
 }
@@ -50,5 +50,57 @@ h2 {
 blockquote {
     font-style: italic;
     font-size: 1.999rem;
-    color: #a16b7a
+    color: #ad677b;
+    hanging-punctuation: first;
+    text-indent: -0.7rem;
+}
+
+a {
+    color:#ad677b;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #ad677b;
+    border-bottom: 1px dotted;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    background-color: #C99DA9;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a { 
+    color:#000000;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:#FDCECA;
+    transition: all 0.5s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
 }
