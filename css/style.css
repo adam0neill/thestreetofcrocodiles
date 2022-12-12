@@ -41,6 +41,7 @@ header {
 
 .street {
     background-color: #81726A;
+    padding-bottom: 4rem;
 }
 
 .street p {
@@ -165,8 +166,12 @@ img {
     width: 50%;
   }
 
-footer {
+.footerback {
     background: #68534D;
+}
+
+footer {
+   
     text-align: center;
     font-size: 0.75rem;
     color: #f7f7f7;
